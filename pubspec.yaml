@@ -29,6 +29,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -36,6 +38,15 @@ dependencies:
   cupertino_icons: ^1.0.2
   #  https://pub.flutter-io.cn/packages/flutter_bloc/install
   flutter_bloc: ^8.1.3
+  # 汉子转拼音
+  lpinyin: ^2.0.3
+  dio: ^5.1.2
+  rxdart: ^0.27.7
+  cached_network_image: ^3.2.0
+  url_launcher: ^6.1.5
+  pull_to_refresh: ^2.0.0
+  webview_flutter: ^3.0.4
+  shared_preferences: ^2.0.15
 
 dev_dependencies:
   flutter_test:
